@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background: linear-gradient(287.56deg, #c2e9fb 0%, #a1c4fd 100%);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+body,
+input,
+button,
+select,
+textarea {
+  font-family: 'DM Sans', sans-serif;
+}
+
+main {
+  background: #ffffff;
+  box-shadow: 0rem 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.6rem;
+  padding: 4.8rem 6.4rem 6.4rem;
+  width: min(42.8rem, 90%);
+  margin-top: -9rem;
+
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  line-height: 2.9rem;
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+  color: #34355b;
+}
+
+form {
+  margin-top: 4.8rem;
+  font-size: 1.6rem;
+  line-height: 150%;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: rgba(52, 53, 91, 0.8);
+}
+
+input,
+button,
+select,
+textarea {
+  border: none;
+  padding: 1.6rem;
+}
+
+input {
+  background-color: #dce2e9;
+  color: #34355b;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  width: 7rem;
+  border-radius: 4px 0px 0px 4px;
+  margin-right: 0;
+  text-align: center;
+}
+
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+button {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* NEUTRAL/White */
+
+  color: #ffffff;
+
+  max-width: 8.2rem;
+  background: #7879f1;
+  border-radius: 0px 0.4rem 0.4rem 0px;
+  cursor: pointer;
+  transition: background 0.3 ease-in-out;
+}
+
+button:hover {
+  background: rgb(120, 121, 241, 0.9);
+}
+
+.btn-again {
+  border-radius: 0.4rem;
+  max-width: max-content;
+}
+
+.hide {
+  display: none;
+}
+
+.text-again {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 150%;
+
+  text-align: center;
+
+  color: #34355b;
+  margin-bottom: 3.3rem;
+}

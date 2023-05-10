@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Jogo Adivinhação</title>
+  </head>
+  <body>
+    <main>
+      <div class="screenMain">
+        <h1>Jogo de Adivinhação</h1>
+        <h2>Adivinhe um número entre 0 e 10</h2>
+
+        <form>
+          <input id="inputNumber" type="number" />
+          <button onclick="handleClick(event)">Tentar</button>
+        </form>
+      </div>
+
+      <div class="screen-again hide">
+        <h2 class="text-again">Acertou em 3 tentativas!</h2>
+        <button class="btn-again">Jogar Novamente</button>
+      </div>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
