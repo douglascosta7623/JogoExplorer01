@@ -111,7 +111,7 @@ button:hover {
   background: rgb(120, 121, 241, 0.9);
 }
 
-.btn-again {
+#btn-again {
   border-radius: 0.4rem;
   max-width: max-content;
 }
